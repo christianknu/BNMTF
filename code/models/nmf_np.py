@@ -156,4 +156,4 @@ class NMF:
         for metric in self.metrics:
             self.all_performances[metric].append(perf[metric])
                
-        print "Iteration %s. I-divergence: %s. MSE: %s. R^2: %s. Rp: %s." % (iteration,i_div,perf['MSE'],perf['R^2'],perf['Rp'])
+        print("Iteration %s. I-divergence: %s. MSE: %s. R^2: %s. Rp: %s." % (iteration,i_div,perf['MSE'],perf['R^2'],perf['Rp']))
